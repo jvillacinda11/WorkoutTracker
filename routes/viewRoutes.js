@@ -1,8 +1,8 @@
 const router = require('express').Router()
-const { Exercise } = require('../models')
+const { Workout } = require('../models')
 
 //get all exercises
-router.get('/items', (req, res) => Item.find()
+router.get('/Workout', (req, res) => Item.find()
   .then(items => res.json(items))
   .catch(err => console.log(err)))
 
